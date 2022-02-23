@@ -26,10 +26,17 @@ const [todos, setTodos] = useState<Array<Todo>>([]);
     setTodos(updatedTodos);
   };
 
+  //  const completeTask = (taskNameToDelete: string): void => {
+  //   setTodoList(
+  //     todoList.filter((task) => {
+  //       return task.taskName != taskNameToDelete;
+  //     })
+  //   );
+  // };
 
   return (
     <div className="App">
-       <h1>Todo App</h1>
+       <h1>Todo Add Name</h1>
        <TodoForm addTodo={addTodo}/>
         <TodoList todos={todos} toggleComplete={toggleComplete}/>
     </div>

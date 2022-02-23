@@ -14,7 +14,7 @@ body {
   justify-content: start;
   width: 500px;
   min-height: 500px;
-  background: rgb(153, 107, 107);
+  background: white;
   text-align: center;
   margin: 128px auto;
   border-radius: 5px;
@@ -43,7 +43,7 @@ h1 {
   background: linear-gradient(90deg,
       rgba(105, 20, 204, 1) 0%,
       rgba(44, 114, 251, 1) 100%);
-  color: rgb(2, 2, 2);
+  color: rgb(245, 240, 240);
   text-transform: capitalize;
 }
 
@@ -54,7 +54,7 @@ h1 {
   outline: none;
   width: 320px;
   background: transparent;
-  
+
 }
 
 .todo_input.edit {
@@ -86,7 +86,6 @@ ul {
   align-items: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 4px auto;
-
   padding: 16px;
   border-radius: 20px;
   width: 80%;
